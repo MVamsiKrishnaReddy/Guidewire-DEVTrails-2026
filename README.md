@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=42&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=ShieldGig;E-commerce+Delivery+Protection;AI+Parametric+Insurance+System" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=ShieldGig;E-commerce+Delivery+Protection;AI+Parametric+Insurance" />
 
 </div>
 
