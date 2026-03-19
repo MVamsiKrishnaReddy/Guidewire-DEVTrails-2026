@@ -56,3 +56,25 @@ India’s gig economy is growing fast — and e-commerce delivery is a big part 
 Despite being essential, these workers have **no income protection**.  
 
 ShieldGig aims to provide a **data-driven financial safety net** through **automated parametric insurance**.
+
+---
+
+# 🛡️ Proposed Concept: ShieldGig
+
+ShieldGig is a **parametric micro-insurance platform** for e-commerce delivery gig workers.  
+It provides **automatic payouts** when external disruptions affect earnings, without any manual claim process.
+
+- Uses **environmental triggers** like heavy rain, floods, extreme heat, pollution, or local restrictions  
+- **AI verifies worker activity** in the affected zone before releasing payouts  
+- **Fraud detection** prevents misuse, ensuring fair and accurate compensation  
+- **Automatic credit** of payouts reduces income instability for workers  
+
+```mermaid
+flowchart TD
+    A[Environmental & Operational Data] --> B[AI Trigger Engine]
+    B --> C[Eligibility Verification]
+    C --> D{Fraud Detection?}
+    D -->|Yes| E[Flag for Review]
+    D -->|No| F[Automatic Payout]
+    F --> G[Worker Receives Compensation]
+```
