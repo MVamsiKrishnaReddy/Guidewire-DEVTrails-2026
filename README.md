@@ -1,50 +1,51 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=42&pause=1000&color=00FFCC&center=true&vCenter=true&width=800&lines=ShieldGig;E-commerce+Delivery+Protection;AI+Parametric+Insurance" alt="Animated Header" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=42&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=ShieldGig;E-commerce+Delivery+Protection;AI+Parametric+Insurance+System" />
+
 </div>
 
 <p align="center">
-  <b>Problem Understanding — E-commerce Gig Workers</b><br>
-  <i>Income instability in last-mile delivery systems</i>
+<b>Problem Understanding — E-commerce Delivery Workers</b><br>
+<i>A data-driven view of income instability in last-mile logistics</i>
 </p>
 
 ---
 
 # 📌 Problem Statement
 
-India’s e-commerce ecosystem, powered by platforms like Amazon, Flipkart, and other marketplaces, depends heavily on **delivery partners** for last-mile logistics.
+India’s e-commerce ecosystem, driven by platforms like Amazon and Flipkart, depends heavily on **gig-based delivery workers** for last-mile delivery.
 
-These workers operate under a **gig-based model**, where earnings are directly tied to the number of deliveries completed.
+These workers earn **per delivery**, meaning their income is directly tied to daily activity.
 
-However, this creates a major challenge:
-
-👉 **No work = No income**
+👉 If deliveries stop → income stops.
 
 ---
 
-### ⚠️ Key Issue
+### ⚠️ Key Challenge
 
-Delivery operations are highly affected by **external disruptions**, such as:
+Delivery operations are highly sensitive to **external disruptions**:
 
 - 🌧 Heavy Rain & Floods  
 - 🌡 Extreme Heatwaves  
 - 🌫 Severe Air Pollution  
-- 🚧 Government Curfews / Restrictions  
+- 🚧 Government Restrictions  
 
-During such events, deliveries slow down or stop entirely.
+During such events, delivery volume drops sharply or halts completely.
 
 ---
 
-### 💸 Impact
+### 💸 Real Impact
 
-- Workers can lose **20–30% of weekly income**  
-- No compensation for missed working days  
-- No structured income protection system  
+- Workers can lose **~20–30% of weekly income**  
+- No compensation for downtime  
+- No structured income protection  
 
-This makes delivery workers financially vulnerable despite being critical to the e-commerce supply chain.
+This creates **financial instability**, even though they are critical to the e-commerce supply chain.
 
 ---
 
 ```mermaid
-pie title Weekly Income Impact (E-commerce Delivery Workers)
-    "Active Earnings" : 70
-    "Income Lost Due to Disruptions" : 30
+%%{init: {'theme': 'base', 'themeVariables': { 'pie1': '#00C2FF', 'pie2': '#FF6B6B'}}}%%
+pie title Weekly Income Impact (E-commerce Workers)
+    "Active Earnings (~70–75%)" : 75
+    "Income Lost (~25%)" : 25
