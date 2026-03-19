@@ -78,3 +78,19 @@ flowchart TD
     D -->|No| F[Automatic Payout]
     F --> G[Worker Receives Compensation]
 ```
+
+---
+
+# ⚡ Parametric Triggers
+
+ShieldGig automatically monitors **measurable thresholds** and releases payouts when workers are affected by external disruptions.
+
+- **Rainfall & Floods** 🌧 — triggers payouts if rainfall exceeds a set limit or flood alerts are issued in the delivery zone  
+- **Extreme Heat** 🌡 — activates when temperatures rise above safe working thresholds for multiple hours  
+- **Air Pollution** 🌫 — triggers compensation if AQI crosses unhealthy levels in affected regions  
+- **Local Restrictions & Curfews** 🚧 — automatically compensates workers if government-imposed restrictions prevent deliveries  
+- **Operational Downtime** ⚙️ — monitors delivery platform or route disruptions and triggers payouts for lost income  
+- **AI Verification & Fraud Detection** 🤖 — confirms worker activity and validates eligibility, preventing false claims  
+- **Automatic Wallet Credit** 💳 — payouts are instantly credited to the worker’s digital wallet  
+
+---
