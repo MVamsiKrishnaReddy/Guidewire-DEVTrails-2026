@@ -45,10 +45,14 @@ pie title Weekly Income Reality
 
 ---
 
-### 💸 The impact
+# Why This Matters
 
-- Income can drop by **20–30% in a week**  
-- No compensation for missed days  
-- No financial safety net  
+India’s gig economy is growing fast — and e-commerce delivery is a big part of it.  
 
-Despite being essential, delivery workers remain financially vulnerable.
+- Over **3.7 million delivery workers** rely on platforms like **Amazon, Flipkart, Swiggy, Zomato, Blinkit, Zepto**  
+- Most depend on **daily earnings to survive**, meaning even **1–2 days of disruption** can hit their weekly income  
+- External factors like **rain, floods, extreme heat, pollution, or local restrictions** can instantly stop deliveries  
+
+Despite being essential, these workers have **no income protection**.  
+
+ShieldGig aims to provide a **data-driven financial safety net** through **automated parametric insurance**.
