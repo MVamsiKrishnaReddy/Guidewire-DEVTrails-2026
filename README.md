@@ -286,6 +286,7 @@ Assignment time verification
 # Development Roadmap
 
 **Phase 1:**
+
 Concept design
 System architecture planning
 Workflow design
@@ -296,6 +297,7 @@ GPS validation logic
 Defense layer design
 
 **Phase 2:**
+
 Backend development
 API integration
 Weather / Flood / Restriction APIs
@@ -308,6 +310,7 @@ Assignment tracking system
 Event validation module
 
 **Phase 3:**
+
 Automation flow
 Parametric trigger automation
 Auto validation
