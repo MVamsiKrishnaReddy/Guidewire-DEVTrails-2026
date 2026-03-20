@@ -174,8 +174,7 @@ No manual claim required – payouts are fully automated.
 <img src="images/systemarchiture.jpg" width="850">
 </p>
 
-## Architecture Components
-
+## Architecture Components:
 **Client Interface:**
 Delivery partner dashboard
 Policy enrollment
