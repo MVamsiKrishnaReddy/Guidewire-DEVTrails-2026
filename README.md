@@ -63,15 +63,16 @@ pie title Weekly Income Reality
 
 # Why This Matters
 
-India’s gig economy is growing fast — and e-commerce delivery is a big part of it.  
+India’s e-commerce industry is growing rapidly, and delivery partners play a critical role in last-mile logistics for platforms like **Amazon, Flipkart, Blinkit, Zepto, and other online marketplaces**.
 
-- Over **3.7 million delivery workers** rely on platforms like **Amazon, Flipkart, Swiggy, Zomato, Blinkit, Zepto**  
-- Most depend on **daily earnings to survive**, meaning even **1–2 days of disruption** can hit their weekly income  
-- External factors like **rain, floods, extreme heat, pollution, or local restrictions** can instantly stop deliveries  
+- Lakhs of delivery partners depend on **per-delivery earnings**, which means their income is not fixed  
+- Even **1–2 days of disruption** due to external conditions can reduce their weekly income significantly  
+- Events like **heavy rain, floods, extreme heat, road restrictions, or platform downtime** can suddenly stop deliveries  
+- These situations are not in the worker’s control, but they directly affect their earnings  
 
-Despite being essential, these workers have **no income protection**.  
+Currently, there is **no reliable automated income protection system** for e-commerce delivery workers.
 
-ShieldGig aims to provide a **data-driven financial safety net** through **automated parametric insurance**.
+ShieldGig aims to solve this by creating a **data-driven parametric insurance system** that automatically verifies real-world events, validates worker activity using GPS and APIs, and provides fair compensation when deliveries are disrupted.
 
 ---
 
