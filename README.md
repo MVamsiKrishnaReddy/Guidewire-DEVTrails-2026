@@ -261,17 +261,20 @@ Increasing payout accuracy
 # AI & Logic Integration Strategy
 
 **Risk Prediction Engine:**
+
 Historical weather data  
 Flood-prone delivery zones  
 Seasonal delivery disruptions  
 
 **Dynamic Pricing Logic:**
+
 Geographic risk level  
 Weather severity  
 Number of assigned deliveries  
 Expected daily earnings  
 
 **Fraud Detection:**
+
 GPS validation  
 Route distance check  
 Event API cross-check  
