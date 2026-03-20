@@ -126,4 +126,36 @@ flowchart TD
     TR -->|Trigger Backend| BE
     AI -->|Feedback| BE
 ```
+
 ---
+
+# Workflow Scenario: E-commerce Delivery Gig Workers
+
+## Example Case
+
+Worker: Priya, a delivery partner in Mumbai  
+Weekly Earnings: ₹7,000  
+
+Incident: Heavy rainfall floods her delivery zone for 3 days, causing ₹2,500 income loss  
+
+**Weather API Detection:**  
+Real-time monitoring detects extreme rainfall above the defined threshold.
+
+**Parametric Trigger:**  
+The system validates that Priya’s delivery zone meets the payout conditions.
+
+**AI Validation:**  
+AI verifies her activity data to confirm she was assigned deliveries and affected by the disruption.
+
+**Fraud Prevention:**  
+System checks for anomalies to prevent misuse.
+
+**Automatic Payout Initiation:**  
+The platform calculates compensation based on expected income loss.
+
+**Instant Compensation:**  
+Priya receives ₹1,800 in her digital wallet automatically.
+
+---
+
+✅ No manual claim required – payouts are fully automated.
