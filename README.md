@@ -413,6 +413,25 @@ Now the system can detect the event, verify the worker, and send payout automati
 
 ---
 
+# Technology Stack
+
+| Layer | Technology |
+|------|-----------|
+| Frontend | React.js / Next.js |
+| Backend | Node.js + Express |
+| Database | MongoDB |
+| AI / ML | Python, Scikit-learn, Pandas |
+| APIs | OpenWeather API, AQI API, Maps API, Disaster Alert API |
+| Location Tracking | GPS / Maps API |
+| Fraud Detection | Custom validation logic, AI model |
+| Trigger Engine | Node.js scheduler / cron jobs |
+| Payment Simulation | Razorpay Sandbox / Stripe Test |
+| Cloud / Hosting | AWS / Vercel / Render |
+| Authentication | JWT / Firebase Auth |
+| Monitoring / Logs | Cloud logs / Console / Debug tools |
+
+---
+
 # Development Roadmap
 
 **Phase 1:**
