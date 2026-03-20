@@ -83,14 +83,52 @@ It provides **automatic payouts** when external disruptions affect earnings, wit
 - **Fraud detection** prevents misuse, ensuring fair and accurate compensation  
 - **Automatic credit** of payouts reduces income instability for workers  
 
-```mermaid
 flowchart TD
-    A[Environmental & Operational Data] --> B[AI Trigger Engine]
-    B --> C[Eligibility Verification]
-    C --> D{Fraud Detection?}
-    D -->|Yes| E[Flag for Review]
-    D -->|No| F[Automatic Payout]
-    F --> G[Worker Receives Compensation]
-```
+    subgraph User Interaction
+        FE[Frontend]
+    end
+
+    subgraph Core Backend
+        BE[Backend]
+    end
+
+    subgraph AI Processing
+        AI[AI Model]
+        VAL[Validate]
+    end
+
+    subgraph Payment Module
+        PAY[Payment]
+    end
+
+    subgraph API Section
+        API[API]
+        TR[Trigger]
+    end
+
+    %% Frontend and Backend bidirectional
+    FE <--> BE
+
+    %% Backend to AI
+    BE --> AI
+
+    %% AI to Validate and Validate to Payment
+    AI --> VAL
+    VAL --> PAY
+
+    %% API to Trigger to Backend
+    API --> TR --> BE
+
+    %% AI feedback loop to Backend
+    AI --> BE
+
+    %% Optional: Label arrows
+    FE -->|User Requests| BE
+    BE -->|Data for AI| AI
+    AI -->|Validation Input| VAL
+    VAL -->|Process Payment| PAY
+    API -->|External Call| TR
+    TR -->|Trigger Backend| BE
+    AI -->|Feedback| BE
 
 ---
