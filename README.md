@@ -63,7 +63,7 @@ pie title Weekly Income Reality
 
 # Why This Matters
 
-India’s e-commerce industry is growing rapidly, and delivery partners play a critical role in last-mile logistics for platforms like **Amazon, Flipkart, Blinkit, Zepto, and other online marketplaces**.
+India’s e-commerce industry is growing rapidly, and delivery partners play a critical role in last-mile logistics for platforms like **Amazon, Flipkart, and other online marketplaces**.
 
 - Lakhs of delivery partners depend on **per-delivery earnings**, which means their income is not fixed  
 - Even **1–2 days of disruption** due to external conditions can reduce their weekly income significantly  
@@ -311,6 +311,128 @@ No manual claim required – payouts are fully automated.
 - Event API cross-check  
 - Duplicate request detection  
 - Assignment time verification  
+
+---
+
+# Evolution of Insurance Design – Complete Journey Flow
+
+### Stage 1 — Initial Idea (Basic Parametric Model)
+
+- Weekly premium model introduced  
+- Automatic payouts based on triggers (rain, flood, heat)  
+- One payout per event (cooldown applied)  
+- No manual claims (zero-touch system)  
+
+Issue:
+- Multi-day disruptions were compensated with only one payout  
+- Workers received less compensation than expected  
+
+
+### Stage 2 — Duration-Based Payout Model
+
+Improvement:
+- Payout depends on number of affected days  
+
+Formula:
+Payout = Daily Income × Severity × Duration  
+
+Example:
+₹1000 × 0.8 × 3 days = ₹2400  
+
+Issue:
+- Risk of overpayment  
+- High financial exposure  
+- Possible misuse of insurance  
+
+
+### Stage 3 — Weekly Cap Introduction
+
+Improvement:
+- Maximum payout limit added  
+
+Rule:
+Max payout = 40–60% of weekly income  
+
+Example:
+Weekly income = ₹7000  
+Cap = ₹3500  
+
+Effect:
+- Controls payout risk  
+- Prevents excessive claims  
+
+
+### Stage 4 — Diminishing Payout Model (Key Logic)
+
+Payout decreases each day of same event  
+
+Day 1 → 80%  
+Day 2 → 60%  
+Day 3 → 40%  
+Day 4 → 20%  
+
+Example:
+₹800 + ₹600 + ₹400 + ₹200 = ₹2000  
+
+Benefits:
+- Matches real-world behavior  
+- Reduces misuse  
+- Keeps system sustainable  
+
+
+### Stage 5 — Event-Based Cooldown
+
+- One payout sequence per event  
+- Same disruption treated as single event  
+
+Example:
+3-day flood = one event  
+
+
+### Stage 6 — Cross-Week Event Handling
+
+Problem:
+Event continues into next week  
+
+Solution:
+Event ID tracking  
+
+Rule:
+Same event continues even after week change  
+Weekly reset does not create new payout  
+
+
+### Stage 7 — Plan Tier Model
+
+Basic Plan
+- Low premium
+- Lower payout cap
+- Limited triggers
+
+Standard Plan
+- Medium premium
+- Moderate payout cap
+- Most triggers enabled
+
+Pro Plan
+- Higher premium
+- Higher payout cap
+- All triggers enabled
+- Priority payout
+
+
+### Final Model
+
+The system uses:
+
+- Weekly subscription
+- Event-based triggers
+- Diminishing payouts
+- Weekly cap
+- Event continuity tracking
+- Tier-based plans
+- Automatic payout
+- Fraud & GPS validation
 
 ---
 
