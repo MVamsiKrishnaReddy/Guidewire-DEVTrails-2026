@@ -163,5 +163,5 @@ No manual claim required – payouts are fully automated.
 # Visual System Workflow
 
 <p align="center">
-<img src="/Users/vamsikrishnareddymallidi/KLU/DevTrails/images/visualworkflow.jpg" width="850">
+<img src="images/visualworkflow.jpg" width="850">
 </p>
