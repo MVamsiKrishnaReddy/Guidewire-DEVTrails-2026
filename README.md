@@ -85,45 +85,39 @@ It provides **automatic payouts** when external disruptions affect earnings, wit
 
 ```mermaid
 flowchart TD
-    subgraph User Interaction
+    %% Sections
+    subgraph User_Interaction
         FE[Frontend]
     end
 
-    subgraph Core Backend
+    subgraph Core_Backend
         BE[Backend]
     end
 
-    subgraph AI Processing
+    subgraph AI_Processing
         AI[AI Model]
         VAL[Validate]
     end
 
-    subgraph Payment Module
+    subgraph Payment_Module
         PAY[Payment]
     end
 
-    subgraph API Section
+    subgraph API_Section
         API[API]
         TR[Trigger]
     end
 
-    %% Frontend and Backend bidirectional
+    %% Connections
     FE <--> BE
-
-    %% Backend to AI
     BE --> AI
-
-    %% AI to Validate and Validate to Payment
     AI --> VAL
     VAL --> PAY
-
-    %% API to Trigger to Backend
-    API --> TR --> BE
-
-    %% AI feedback loop to Backend
+    API --> TR
+    TR --> BE
     AI --> BE
 
-    %% Optional: Label arrows
+    %% Labeled arrows (optional readability)
     FE -->|User Requests| BE
     BE -->|Data for AI| AI
     AI -->|Validation Input| VAL
