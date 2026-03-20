@@ -165,3 +165,11 @@ No manual claim required – payouts are fully automated.
 <p align="center">
 <img src="images/visualworkflow.jpg" width="850">
 </p>
+
+---
+
+# System Architecture
+
+<p align="center">
+<img src="images/systemarchiture.jpg" width="850">
+</p>
