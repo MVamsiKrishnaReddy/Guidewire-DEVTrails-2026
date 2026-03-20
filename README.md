@@ -313,6 +313,106 @@ No manual claim required – payouts are fully automated.
 
 ---
 
+# ⚠️ Challenges We Faced While Building the Solution
+
+While working on ShieldGig, we realized that building an automatic income protection system for delivery partners is not simple. 
+We had to solve multiple real-world problems to make sure the system is fair, secure, and cannot be misused.
+
+**1. Making sure the worker is actually in the affected area**
+
+One of the biggest problems was verifying whether the delivery partner was really working in the location where the disruption happened.
+
+To solve this, we added:
+- Live GPS tracking
+- Route distance comparison
+- Speed vs distance checking
+
+This helps us confirm that the worker was genuinely active in that zone.
+
+
+**2. Preventing fake GPS and location spoofing**
+
+We understood that users could try to fake their location to get insurance payouts.
+
+Some possible misuse cases were:
+- Fake GPS apps
+- VPN / proxy usage
+- Multiple users sending requests from same location
+
+So we created a defense layer that checks:
+- GPS consistency
+- Device ID
+- Network changes
+- Duplicate requests
+
+
+**3. Validating real-world events correctly**
+
+The system should only give payout when an actual event like flood, rain, or restriction happens.
+
+But getting correct data is not easy.
+
+We had to connect multiple sources:
+- Weather APIs
+- Flood alerts
+- Government restriction updates
+- Location APIs
+
+Then we compare event time with worker activity before approving payout.
+
+
+**4. Checking when the task was assigned**
+
+Another issue we found was that someone could accept a delivery after the disaster starts and still try to claim payout.
+
+So we added timestamp verification:
+- When task was assigned
+- When event started
+- When worker became active
+
+Payout is allowed only if the worker was already assigned before the event.
+
+
+**5. Calculating fair payout for different workers**
+
+Not every worker earns the same amount, so giving a fixed payout would not be fair.
+
+We built a risk engine that considers:
+- Delivery zone risk
+- Weather severity
+- Expected earnings
+- Number of deliveries assigned
+
+This helps us calculate a fair compensation.
+
+
+**6. Protecting the system from mass fraud**
+
+If many fake requests come at once, the payout pool could get drained.
+
+To prevent this, we added:
+- AI fraud detection
+- Defense layer validation
+- Trigger verification
+- Payment approval checks
+
+Only valid requests reach the payment stage.
+
+
+**7. Making everything automatic without manual claims**
+
+The goal of ShieldGig is that workers should not need to file claims manually.
+
+But making this automatic required:
+- Event trigger engine
+- AI validation
+- API checks
+- Secure payment flow
+
+Now the system can detect the event, verify the worker, and send payout automatically.
+
+---
+
 # Development Roadmap
 
 **Phase 1:**
