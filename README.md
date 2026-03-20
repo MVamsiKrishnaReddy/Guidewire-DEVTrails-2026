@@ -174,6 +174,89 @@ No manual claim required – payouts are fully automated.
 <img src="images/systemarchiture.jpg" width="850">
 </p>
 
+## Architecture Components
+
+**Client Interface:**
+Delivery partner dashboard
+Policy enrollment
+Coverage status tracking
+Live activity monitoring
+
+**Backend Node:**
+Policy management
+Worker activity tracking
+API polling
+Event monitoring
+Assignment timestamp tracking
+Payout processing control
+
+**Defense Layer:**
+GPS validation
+Route distance check
+Speed vs distance verification
+VPN / proxy detection
+Device ID verification
+Duplicate request detection
+Assignment time verification
+Event time verification
+Fraud prevention checks
+
+**Risk Engine:**
+Calculates geographic risk score
+Predicts disruption probability
+Uses historical weather data
+Identifies flood-prone zones
+Determines dynamic premium pricing
+Determines payout amount
+
+### Data Oracles:
+**External data sources:**
+Weather API
+Flood alert API
+Government restriction alerts
+AQI / pollution APIs
+Maps / location API
+Platform delivery data API
+
+**AI Agent:**
+Fraud detection
+Risk prediction
+Payout validation
+Anomaly detection
+Eligibility verification
+
+**Trigger Engine:**
+Evaluates incoming environmental data
+Checks parametric rules
+Matches event with worker location
+Validates assignment before event
+Activates payout trigger
+
+**Event Validation Module:**
+Checks event time
+Checks worker location
+Checks delivery assignment
+Checks zone eligibility
+Confirms disruption impact
+
+**Payment Gateway:**
+Wallet credit
+Insurance payout
+Blocked payout (fraud)
+Delayed payout (review)
+Secure transaction processing
+
+**Feedback Loop:**
+Backend ↔ AI Agent
+AI ↔ Defense Layer
+AI ↔ Risk Engine
+
+**Used for:**
+Improving fraud detection
+Improving risk scoring
+Preventing liquidity attack
+Increasing payout accuracy
+
 ---
 
 # AI & Logic Integration Strategy
