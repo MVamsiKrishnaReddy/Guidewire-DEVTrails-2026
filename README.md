@@ -83,6 +83,7 @@ It provides **automatic payouts** when external disruptions affect earnings, wit
 - **Fraud detection** prevents misuse, ensuring fair and accurate compensation  
 - **Automatic credit** of payouts reduces income instability for workers  
 
+```mermaid
 flowchart TD
     subgraph User Interaction
         FE[Frontend]
