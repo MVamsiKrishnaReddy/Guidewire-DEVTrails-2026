@@ -277,3 +277,56 @@ Route distance check
 Event API cross-check  
 Duplicate request detection  
 Assignment time verification
+
+---
+
+# Development Roadmap
+
+**Phase 1:**
+Concept design
+System architecture planning
+Workflow design
+Parametric insurance modeling
+Risk engine design
+Fraud detection strategy
+GPS validation logic
+Defense layer design
+
+**Phase 2:**
+Backend development
+API integration
+Weather / Flood / Restriction APIs
+Event trigger engine
+Risk engine implementation
+AI agent integration
+GPS tracking module
+Fraud detection module
+Assignment tracking system
+Event validation module
+
+**Phase 3:**
+Automation flow
+Parametric trigger automation
+Auto validation
+Auto payout system
+Payment gateway integration
+Fraud prevention checks
+AI feedback loop
+Testing & simulation
+Cloud deployment
+Monitoring & logging
+Production release
+
+---
+
+# Team
+
+| Member | Role |
+|------|------|
+| *Vamsi Krishna Reddy* | System Architecture & Frontend |
+| *Ashraf* | Research & Policy Designer|
+| *Kamesh Prasad* | Backend & Application Development|
+| *Vishnu Vamsi* | Data Collection |
+| *Hari Venkata* | AI / ML |
+
+---
