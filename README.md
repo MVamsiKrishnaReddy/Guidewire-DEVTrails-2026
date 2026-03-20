@@ -173,3 +173,25 @@ No manual claim required – payouts are fully automated.
 <p align="center">
 <img src="images/systemarchiture.jpg" width="850">
 </p>
+
+---
+
+# AI & Logic Integration Strategy
+
+**Risk Prediction Engine:**
+Historical weather data  
+Flood-prone delivery zones  
+Seasonal delivery disruptions  
+
+**Dynamic Pricing Logic:**
+Geographic risk level  
+Weather severity  
+Number of assigned deliveries  
+Expected daily earnings  
+
+**Fraud Detection:**
+GPS validation  
+Route distance check  
+Event API cross-check  
+Duplicate request detection  
+Assignment time verification
