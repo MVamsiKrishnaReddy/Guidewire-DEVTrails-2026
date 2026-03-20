@@ -1,19 +1,19 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=ShieldGig;E-commerce+Protection;AI+Insurance" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=Payshield;E-commerce+Protection;AI+Insurance" />
 
 </div>
 
 <p align="center">
 <b>Understanding the Problem</b><br>
-<i>Income instability in e-commerce delivery work</i>
+<i>Income instability in E-commerce delivery work</i>
 </p>
 
 ---
 
 # 📌 Problem Statement
 
-E-commerce platforms like Amazon, Flipkart, Swiggy, Blinkit, and Zepto rely heavily on gig delivery partners for last-mile delivery.
+E-commerce platforms like Amazon, Flipkart, Swiggy rely heavily on gig delivery partners for last-mile delivery.
 
 These workers are paid per task, so their income depends completely on the number of deliveries they complete each day.
 
@@ -72,13 +72,21 @@ India’s e-commerce industry is growing rapidly, and delivery partners play a c
 
 Currently, there is **no reliable automated income protection system** for e-commerce delivery workers.
 
-ShieldGig aims to solve this by creating a **data-driven parametric insurance system** that automatically verifies real-world events, validates worker activity using GPS and APIs, and provides fair compensation when deliveries are disrupted.
+Payshield aims to solve this by creating a **data-driven parametric insurance system** that automatically verifies real-world events, validates worker activity using GPS and APIs, and provides fair compensation when deliveries are disrupted.
+
+---
+
+# Persona
+
+<p align="center">
+<img src="images/persona.jpg" width="850">
+</p>
 
 ---
 
 # ⚡ Parametric Triggers
 
-ShieldGig automatically monitors **measurable thresholds** and releases payouts when workers are affected by external disruptions.
+Payshield automatically monitors **measurable thresholds** and releases payouts when workers are affected by external disruptions.
 
 - **Rainfall & Floods** 🌧 — triggers payouts if rainfall exceeds a set limit or flood alerts are issued in the delivery zone  
 - **Extreme Heat** 🌡 — activates when temperatures rise above safe working thresholds for multiple hours  
@@ -90,9 +98,9 @@ ShieldGig automatically monitors **measurable thresholds** and releases payouts 
 
 ---
 
-# 🛡️ Proposed Concept: ShieldGig
+# 🛡️ Proposed Concept: Payshield
 
-ShieldGig is a **parametric micro-insurance platform** for e-commerce delivery gig workers.  
+Payshield is a **parametric micro-insurance platform** for e-commerce delivery gig workers.  
 It provides **automatic payouts** when external disruptions affect earnings, without any manual claim process.
 
 - Uses **environmental triggers** like heavy rain, floods, extreme heat, pollution, or local restrictions  
@@ -438,7 +446,7 @@ The system uses:
 
 # ⚠️ Challenges We Faced While Building the Solution
 
-While working on ShieldGig, we realized that building an automatic income protection system for delivery partners is not simple. 
+While working on Payshield, we realized that building an automatic income protection system for delivery partners is not simple. 
 We had to solve multiple real-world problems to make sure the system is fair, secure, and cannot be misused.
 
 **1. Making sure the worker is actually in the affected area**
@@ -524,7 +532,7 @@ Only valid requests reach the payment stage.
 
 **7. Making everything automatic without manual claims**
 
-The goal of ShieldGig is that workers should not need to file claims manually.
+The goal of Payshield is that workers should not need to file claims manually.
 
 But making this automatic required:
 - Event trigger engine
@@ -540,9 +548,9 @@ Now the system can detect the event, verify the worker, and send payout automati
 
 | Layer | Technology |
 |------|-----------|
-| Frontend | React.js / Next.js |
-| Backend | Node.js + Express |
-| Database | MongoDB |
+| Frontend | React.js |
+| Backend | Node.js |
+| Database | NoSQL |
 | AI / ML | Python, Scikit-learn, Pandas |
 | APIs | OpenWeather API, AQI API, Maps API, Disaster Alert API |
 | Location Tracking | GPS / Maps API |
@@ -613,8 +621,9 @@ Now the system can detect the event, verify the worker, and send payout automati
 
 # Vision
 
-ShieldGig aims to create a smarter income protection system for gig workers who face daily uncertainty in their earnings.
+Payshield aims to create a smarter income protection system for gig workers who face daily uncertainty in their earnings.
 
-By using real-time data, event monitoring, and automated validation, ShieldGig provides a financial safety net when deliveries are affected by weather, disasters, or unexpected restrictions.
+By using real-time data, event monitoring, and automated validation, Payshield provides a financial safety net when deliveries are affected by weather, disasters, or unexpected restrictions.
 
 The vision is to make income protection faster, fairer, and more practical for delivery partners in the modern gig economy.
+
