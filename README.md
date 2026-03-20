@@ -125,5 +125,6 @@ flowchart TD
     API -->|External Call| TR
     TR -->|Trigger Backend| BE
     AI -->|Feedback| BE
+```
 
 ---
