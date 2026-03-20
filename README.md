@@ -13,26 +13,42 @@
 
 # 📌 Problem Statement
 
-E-commerce platforms like Amazon and Flipkart rely heavily on delivery partners for last-mile delivery.
+E-commerce platforms like Amazon, Flipkart, Swiggy, Blinkit, and Zepto rely heavily on gig delivery partners for last-mile delivery.
 
-But their income isn’t fixed.
+These workers are paid per task, so their income depends completely on the number of deliveries they complete each day.
 
-They earn **per delivery**, which means:
+Because of this, their earnings become unstable when external conditions interrupt delivery operations.
 
 👉 No deliveries = No income  
+👉 Fewer deliveries = Reduced earnings  
 
 ---
 
-### ⚠️ The reality
+### ⚠️ Real-World Disruptions
 
-Everyday conditions can suddenly stop their work:
+Delivery work can suddenly stop due to conditions that workers cannot control:
 
-- 🌧 Rain & floods  
-- 🌡 Extreme heat  
-- 🌫 Pollution  
-- 🚧 Local restrictions  
+- 🌧 Heavy rain, floods, or storms  
+- 🌡 Extreme heat affecting safe working hours  
+- 🌫 High pollution levels or health alerts  
+- 🚧 Government restrictions, curfews, or road blocks  
+- ⚙️ Platform downtime or operational issues  
 
-When this happens, deliveries slow down or stop entirely.
+When these events happen, delivery partners lose income even though the disruption is not their fault.
+
+---
+
+### ⚠️ Current Problem
+
+Existing insurance systems are not suitable for gig workers because:
+
+- Claims require manual proof  
+- Approval takes time  
+- Small income losses are not covered  
+- Fraud and false claims are difficult to verify  
+- Platforms cannot automatically validate real disruptions  
+
+Because of this, gig workers currently have **no reliable income protection system** during unexpected events.
 
 ---
 
