@@ -352,3 +352,11 @@ No manual claim required – payouts are fully automated.
 | *Hari Venkata* | AI / ML |
 
 ---
+
+# Vision
+
+ShieldGig aims to create a smarter income protection system for gig workers who face daily uncertainty in their earnings.
+
+By using real-time data, event monitoring, and automated validation, ShieldGig provides a financial safety net when deliveries are affected by weather, disasters, or unexpected restrictions.
+
+The vision is to make income protection faster, fairer, and more practical for delivery partners in the modern gig economy.
