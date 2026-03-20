@@ -87,25 +87,25 @@ It provides **automatic payouts** when external disruptions affect earnings, wit
 flowchart TD
     %% Sections
     subgraph User_Interaction
-        FE[Frontend]
+        FE[Frontend\n(User Interface)]
     end
 
     subgraph Core_Backend
-        BE[Backend]
+        BE[Backend\n(Server & Logic)]
     end
 
     subgraph AI_Processing
-        AI[AI Model]
-        VAL[Validate]
+        AI[AI Model\n(Data Processing & Decisions)]
+        VAL[Validate\n(Eligibility / Verification)]
     end
 
     subgraph Payment_Module
-        PAY[Payment]
+        PAY[Payment\n(Payout / Compensation)]
     end
 
     subgraph API_Section
-        API[API]
-        TR[Trigger]
+        API[API\n(External System)]
+        TR[Trigger\n(Event / Action)]
     end
 
     %% Connections
@@ -117,7 +117,7 @@ flowchart TD
     TR --> BE
     AI --> BE
 
-    %% Labeled arrows (optional readability)
+    %% Optional: Labeled arrows for clarity
     FE -->|User Requests| BE
     BE -->|Data for AI| AI
     AI -->|Validation Input| VAL
@@ -125,6 +125,15 @@ flowchart TD
     API -->|External Call| TR
     TR -->|Trigger Backend| BE
     AI -->|Feedback| BE
+
+    %% Styling nodes to fit text
+    style FE font-size:12px
+    style BE font-size:12px
+    style AI font-size:12px
+    style VAL font-size:12px
+    style PAY font-size:12px
+    style API font-size:12px
+    style TR font-size:12px
 ```
 
 ---
