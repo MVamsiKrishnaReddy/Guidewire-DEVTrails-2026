@@ -627,3 +627,4 @@ By using real-time data, event monitoring, and automated validation, Payshield p
 
 The vision is to make income protection faster, fairer, and more practical for delivery partners in the modern gig economy.
 
+This is our Phase-1 vision based on our current understanding of the problem and possible solution. The design may change as we continue to explore better approaches, technologies, and implementation strategies.
