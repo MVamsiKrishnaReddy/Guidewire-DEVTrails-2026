@@ -156,6 +156,12 @@ The platform calculates compensation based on expected income loss.
 **Instant Compensation:**  
 Priya receives ₹1,800 in her digital wallet automatically.
 
+No manual claim required – payouts are fully automated.
+
 ---
 
-✅ No manual claim required – payouts are fully automated.
+# Visual System Workflow
+
+<p align="center">
+<img src="/Users/vamsikrishnareddymallidi/KLU/DevTrails/images/visualworkflow.jpg" width="850">
+</p>
