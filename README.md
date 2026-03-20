@@ -262,24 +262,26 @@ Increasing payout accuracy
 
 **Risk Prediction Engine:**
 
-Historical weather data  
-Flood-prone delivery zones  
-Seasonal delivery disruptions  
+- Historical weather data  
+- Flood-prone delivery zones  
+- Seasonal delivery disruptions  
+
 
 **Dynamic Pricing Logic:**
 
-Geographic risk level  
-Weather severity  
-Number of assigned deliveries  
-Expected daily earnings  
+- Geographic risk level  
+- Weather severity  
+- Number of assigned deliveries  
+- Expected daily earnings  
+
 
 **Fraud Detection:**
 
-GPS validation  
-Route distance check  
-Event API cross-check  
-Duplicate request detection  
-Assignment time verification
+- GPS validation  
+- Route distance check  
+- Event API cross-check  
+- Duplicate request detection  
+- Assignment time verification  
 
 ---
 
